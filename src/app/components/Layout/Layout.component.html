@@ -1,0 +1,118 @@
+<section
+  class="self-stretch bg-Color-Scheme-1-Background overflow-hidden flex flex-col items-center justify-start py-Section-Padding-padding-section-large px-Page-Padding-padding-global text-left text-[24px] text-Color-Scheme-1-Text font-roboto mq375:flex mq375:self-stretch mq375:w-full mq375:h-auto mq375:flex-col mq375:gap-12 mq375:items-center mq375:justify-start mq375:py-16 mq375:px-5 mq375:box-border"
+>
+  <div
+    class="w-full flex flex-col items-start justify-start gap-20 max-w-Container-container-large mq375:flex mq375:w-full mq375:h-auto mq375:flex-col mq375:gap-12 mq375:items-start mq375:justify-start mq375:max-w-Container-container-large"
+  >
+    <section
+      class="w-full flex flex-col items-start justify-start gap-4 max-w-Max-Width-max-width-large text-left text-[16px] text-Color-Scheme-1-Text font-roboto mq375:flex mq375:w-full mq375:h-auto mq375:flex-col mq375:gap-3 mq375:items-start mq375:justify-start mq375:max-w-Max-Width-max-width-large"
+    >
+      <div
+        class="flex flex-row items-center justify-start mq375:flex mq375:w-auto mq375:[align-self:unset] mq375:h-auto mq375:flex-row mq375:gap-0 mq375:items-center mq375:justify-start"
+      >
+        <div
+          class="relative leading-[150%] font-semibold mq375:font-semibold mq375:font-roboto mq375:text-[16px] mq375:leading-[150%] mq375:text-left mq375:block mq375:w-auto mq375:[align-self:unset] mq375:h-auto"
+        >
+          Explore
+        </div>
+      </div>
+      <div
+        class="self-stretch flex flex-col items-start justify-start gap-6 text-Text-Sizes-Heading-2 mq375:flex mq375:self-stretch mq375:w-full mq375:h-auto mq375:flex-col mq375:gap-5 mq375:items-start mq375:justify-start"
+      >
+        <h1
+          class="m-0 self-stretch relative text-[length:inherit] leading-[120%] font-bold font-[inherit] mq375:font-bold mq375:font-roboto mq375:text-[36px] mq375:leading-[120%] mq375:text-left mq375:block mq375:self-stretch mq375:w-full mq375:h-auto"
+        >
+          Discover Our Top Islamic Book Categories
+        </h1>
+        <div
+          class="self-stretch relative text-Text-Sizes-Text-Medium leading-[150%] mq375:font-roboto mq375:text-[16px] mq375:leading-[150%] mq375:text-left mq375:block mq375:self-stretch mq375:w-full mq375:h-auto"
+        >
+          Dive into our carefully curated selection of Islamic literature. Each
+          category is designed to enrich your knowledge and spiritual journey.
+        </div>
+      </div>
+    </section>
+    <div
+      class="self-stretch hidden flex-col items-start justify-start gap-12 lg:hidden md:hidden sm:hidden mq350small:hidden mq375:flex"
+    >
+      <div class="self-stretch flex flex-col items-start justify-start gap-3">
+        <img class="w-12 relative h-12" alt="" src="assets/book.svg" />
+        <b class="self-stretch relative leading-[130%]"
+          >Spiritual Growth and Enlightenment</b
+        >
+        <div class="self-stretch relative text-[16px] leading-[150%]">
+          Explore books that inspire and uplift your soul.
+        </div>
+      </div>
+      <div class="self-stretch flex flex-col items-start justify-start gap-3">
+        <img class="w-12 relative h-12" alt="" src="assets/text-ad.svg" />
+        <b class="self-stretch relative leading-[130%]"
+          >Knowledge and Wisdom Await You</b
+        >
+        <div class="self-stretch relative text-[16px] leading-[150%]">
+          Discover texts that deepen your understanding of faith.
+        </div>
+      </div>
+      <div class="self-stretch flex flex-col items-start justify-start gap-3">
+        <img class="w-12 relative h-12" alt="" src="assets/join.svg" />
+        <b class="self-stretch relative leading-[130%]"
+          >Community and Connection Through Literature</b
+        >
+        <div class="self-stretch relative text-[16px] leading-[150%]">
+          Join a community of readers and seekers.
+        </div>
+      </div>
+    </div>
+    <section
+      class="self-stretch flex flex-col items-start justify-start text-left text-Text-Sizes-Heading-4 text-Color-Scheme-1-Text font-roboto mq375:hidden"
+    >
+      <div class="self-stretch flex flex-row items-start justify-start gap-12">
+        <column
+          [book]="'assets/book.svg'"
+          [heading]="'Spiritual Growth and Enlightenment'"
+          [text]="'Explore books that inspire and uplift your soul.'"
+        >
+        </column
+        ><column
+          [book]="'assets/text-ad.svg'"
+          [heading]="'Knowledge and Wisdom Await You'"
+          [text]="'Discover texts that deepen your understanding of faith.'"
+        >
+        </column
+        ><column
+          [book]="'assets/join.svg'"
+          [heading]="'Community and Connection Through Literature'"
+          [text]="'Join a community of readers and seekers.'"
+        >
+        </column>
+      </div>
+    </section>
+    <div
+      class="flex flex-row items-center justify-start gap-6 text-Text-Sizes-Text-Regular mq375:flex mq375:w-auto mq375:[align-self:unset] mq375:h-auto mq375:flex-row mq375:gap-6 mq375:items-center mq375:justify-start"
+    >
+      <button-1
+        [alternate]="false"
+        [iconPosition]="'No icon'"
+        [small]="false"
+        [style]="'Secondary'"
+        [button]="'Browse'"
+      >
+      </button-1>
+      <div
+        class="overflow-hidden flex flex-row items-center justify-center gap-2 mq375:flex mq375:w-auto mq375:[align-self:unset] mq375:h-auto mq375:flex-row mq375:gap-2 mq375:items-center mq375:justify-center"
+      >
+        <div
+          class="relative leading-[150%] mq375:font-roboto mq375:text-Text-Sizes-Text-Regular mq375:leading-[150%] mq375:text-left mq375:block mq375:w-auto mq375:[align-self:unset] mq375:h-auto"
+        >
+          Learn More
+        </div>
+        <img
+          class="h-6 w-6 relative overflow-hidden shrink-0 mq375:block mq375:w-6 mq375:h-6"
+          loading="lazy"
+          alt=""
+          src="assets/chevron-right.svg"
+        />
+      </div>
+    </div>
+  </div>
+</section>

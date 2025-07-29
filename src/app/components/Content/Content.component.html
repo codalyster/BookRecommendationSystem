@@ -1,0 +1,86 @@
+<div
+  class="flex-1 flex flex-row items-center justify-start gap-20 mq375:flex mq375:w-[335px] mq375:h-auto mq375:flex-col mq375:gap-12 mq375:items-start mq375:justify-center"
+  *ngIf="showContent"
+>
+  <img
+    class="flex-1 relative max-w-full overflow-hidden max-h-full object-cover mq375:block mq375:self-stretch mq375:w-full mq375:h-[340px] mq375:flex-[unset]"
+    loading="lazy"
+    alt=""
+    [src]="placeholderImage"
+  />
+  <section
+    class="flex-1 overflow-hidden flex flex-col items-start justify-start gap-8 text-left text-Text-Sizes-Heading-5 text-Color-Scheme-1-Text font-roboto mq375:flex mq375:self-stretch mq375:w-full mq375:h-auto mq375:flex-col mq375:gap-6 mq375:items-start mq375:justify-start mq375:flex-[unset]"
+  >
+    <div
+      class="overflow-hidden flex flex-row items-start justify-start gap-1 mq375:flex mq375:w-auto mq375:[align-self:unset] mq375:h-auto mq375:flex-row mq375:gap-1 mq375:items-start mq375:justify-start"
+    >
+      <img
+        class="h-[18.9px] w-5 relative mq375:block mq375:w-5 mq375:h-[18.89px]"
+        loading="lazy"
+        alt=""
+        src="assets/vector.svg"
+      />
+      <img
+        class="h-[18.9px] w-5 relative mq375:block mq375:w-5 mq375:h-[18.89px]"
+        loading="lazy"
+        alt=""
+        src="assets/vector.svg"
+      />
+      <img
+        class="h-[18.9px] w-5 relative mq375:block mq375:w-5 mq375:h-[18.89px]"
+        loading="lazy"
+        alt=""
+        src="assets/vector.svg"
+      />
+      <img
+        class="h-[18.9px] w-5 relative mq375:block mq375:w-5 mq375:h-[18.89px]"
+        loading="lazy"
+        alt=""
+        src="assets/vector.svg"
+      />
+      <img
+        class="h-[18.9px] w-5 relative mq375:block mq375:w-5 mq375:h-[18.89px]"
+        alt=""
+        src="assets/vector.svg"
+      />
+    </div>
+    <h3
+      class="m-0 self-stretch relative text-[length:inherit] leading-[140%] font-bold font-[inherit] mq375:font-bold mq375:font-roboto mq375:text-[20px] mq375:leading-[140%] mq375:text-left mq375:block mq375:self-stretch mq375:w-full mq375:h-auto"
+    >
+      {{quote}}
+    </h3>
+    <div
+      class="flex flex-row items-center justify-start gap-5 text-Text-Sizes-Text-Regular mq375:flex mq375:w-auto mq375:[align-self:unset] mq375:h-auto mq375:flex-row mq375:gap-4 mq375:items-center mq375:justify-start"
+    >
+      <div
+        class="flex flex-col items-start justify-start mq375:flex mq375:w-auto mq375:[align-self:unset] mq375:h-auto mq375:flex-col mq375:gap-0 mq375:items-start mq375:justify-start"
+      >
+        <div
+          class="relative leading-[150%] font-semibold mq375:font-semibold mq375:font-roboto mq375:text-Text-Sizes-Text-Regular mq375:leading-[150%] mq375:text-left mq375:block mq375:w-auto mq375:[align-self:unset] mq375:h-auto"
+        >
+          {{authorName}}
+        </div>
+        <div
+          class="relative leading-[150%] mq375:font-roboto mq375:text-Text-Sizes-Text-Regular mq375:leading-[150%] mq375:text-left mq375:block mq375:w-auto mq375:[align-self:unset] mq375:h-auto"
+        >
+          {{authorTitle}}
+        </div>
+      </div>
+      <div
+        class="w-px relative border-Color-Scheme-1-Border border-solid border-r-[1px] box-border h-[62px] mq375:block mq375:w-px mq375:h-[62px] mq375:border-Color-Scheme-1-Border mq375:border-solid mq375:mq375:border-[1px] mq375:box-border"
+      ></div>
+      <placeholder-logo
+        [alternate]="alternate"
+        [logo]="logo"
+        [placeholderLogoWidth]="placeholderLogoWidth"
+        [placeholderLogoHeight]="placeholderLogoHeight"
+        [logo1]="'assets/logo1.svg'"
+        [logoIconTop]="logoIconTop"
+        [logoIconLeft]="logoIconLeft"
+        [logoIconWidth]="logoIconWidth"
+        [logoIconHeight]="logoIconHeight"
+      >
+      </placeholder-logo>
+    </div>
+  </section>
+</div>
